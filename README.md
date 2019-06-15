@@ -15,6 +15,8 @@ The visual mode mapping will extract the selection as a variable.
 
 The normal mode mapping will first select something, and then extract that selection as a variable. If [gcmt/wildfire.vim](https://github.com/gcmt/wildfire.vim) is installed, it will use that to select the closest text object. If not, it will select an [inner word](http://vimdoc.sourceforge.net/htmldoc/motion.html#iw).
 
+Tip: add [jqno/vim-textobj-functioncall](https://github.com/jqno/vim-textobj-functioncall) for even better support.
+
 ## Supported languages
 
 By default, a variable declaration will look like this:
