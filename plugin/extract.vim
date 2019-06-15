@@ -7,7 +7,9 @@ let g:extract_variable_filetypes = {
     \ 'java': ['var', '=', ';'],
     \ 'javascript': ['const', '=', ''],
     \ 'typescript': ['const', '=', ''],
-    \ 'scala': ['val', '=', '']
+    \ 'scala': ['val', '=', ''],
+    \ 'sh': ['local', '=', ''],
+    \ 'zsh': ['local', '=', '']
     \ }
 
 nnoremap <unique> <Plug>(extractVariableNormal) :call extract#variable(0)<CR>
