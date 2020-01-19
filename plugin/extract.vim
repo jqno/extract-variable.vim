@@ -6,9 +6,10 @@ let g:loaded_extract_variable = 1
 let g:extract_variable_filetypes = {
     \ 'java': ['var', '=', ';'],
     \ 'javascript': ['const', '=', ''],
-    \ 'typescript': ['const', '=', ''],
+    \ 'rust': ['let', '=', ';'],
     \ 'scala': ['val', '=', ''],
     \ 'sh': ['local', '=', ''],
+    \ 'typescript': ['const', '=', ''],
     \ 'zsh': ['local', '=', '']
     \ }
 

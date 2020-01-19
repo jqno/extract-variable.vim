@@ -29,7 +29,8 @@ This works for many languages, such as Python and Ruby. Some of the other langua
 | --- | --- |
 | Java (10+) | `var varname = expression;`  |
 | Javascript | `const varname = expression` |
-| Typescript | `const varname = expression` |
+| Rust       | `let varname = expression;`  |
 | Scala      | `val varname = expression`   |
 | Shell      | `local varname = expression` |
+| Typescript | `const varname = expression` |
 
